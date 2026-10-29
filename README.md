@@ -75,7 +75,7 @@ Every example sets a maximum cost per run. In Python that is `max_total_charge_u
 
 ## Test log
 
-On **29 Oct 2026** I ran every example once against the live Actors with the tiny inputs shown in the code. That was 21 runs in total, including reruns after fixes, and every run SUCCEEDED. The test harness in `tests/` sends the calls through the logged-in Apify CLI, so no token was used or stored.
+On **29 Oct 2026** I ran every example once against the live Actors with the tiny inputs shown in the code. That was 22 runs in total, including reruns after fixes, and every run SUCCEEDED. The test harness in `tests/` sends the calls through the logged-in Apify CLI, so no token was used or stored.
 
 | Example | Result |
 |---|---|
@@ -84,7 +84,7 @@ On **29 Oct 2026** I ran every example once against the live Actors with the tin
 | lighthouse_to_csv.py | ✅ 1 mobile audit (python.org) |
 | markdown_chunks_for_rag.py | ✅ 2 pages, 20 chunks |
 | llms_txt_for_docs.mjs | ✅ llms.txt for docs.python.org/3 |
-| web-to-markdown/curl.sh | ⚠️ Not run in its final form, because the test account hit its monthly usage limit. The first attempt had a cap below the Actor's $0.03 minimum and was rejected, which led to the cap note above. The same call works from Python. |
+| web-to-markdown/curl.sh | ✅ 1 page (python.org/about) to Markdown with the $0.03 cap |
 | sea_open_data_to_pandas.py | ✅ 12 CPI months and 5 exchange rates, with attribution |
 | sea-open-data/curl.sh | ✅ 5 HDB resale rows as CSV |
 | papers_to_csv.py | ✅ 10 unique papers |
