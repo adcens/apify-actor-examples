@@ -1,0 +1,9 @@
+{
+  "name": "apify-actor-examples",
+  "private": true,
+  "type": "module",
+  "description": "Copy-paste examples for the thriving_adder Actors on the Apify Store",
+  "license": "MIT",
+  "engines": { "node": ">=18" },
+  "dependencies": { "apify-client": "^2.25.0" }
+}

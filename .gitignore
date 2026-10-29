@@ -1,0 +1,19 @@
+# Dependencies and environments
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.pyc
+# Example outputs (scraped/derived data is never committed)
+output/
+*.csv
+*.jsonl
+*.png
+*.jpg
+*.jpeg
+*.pdf
+llms*.txt
+page.json
+# Secrets
+.env
+.env.*
